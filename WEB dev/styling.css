@@ -2,11 +2,13 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
-    text-align: center;
+    text-align: left;
 }
 
 h1 {
-    color: #330e0e;
+    color: #5760d8;
+    text-decoration: underline;
+    text-decoration-style: dotted;
 }
 
 button {
@@ -15,8 +17,20 @@ button {
     padding: 10px 20px;
     border: none;
     cursor: pointer;
+    border-radius: 10px;
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #ca0f1e;
+}
+*{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+div {
+    width: 200px;
+    border-width: 10px;
+    border-style: dashed;
+    border-color: #d60d0d;
+    text-align: right;
+    margin: 5px;
 }
